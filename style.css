@@ -545,3 +545,92 @@ h1{
         font-weight: bold;
     }
 }
+
+@media (max-width: 860px){
+    nav ul{
+        margin-left: 200px;
+        gap: 10px;
+    }
+    
+    header{
+        width:100%;
+        .header-title{
+            font-size: 32px;
+        }
+    }
+    
+    .par{
+        flex-direction: column;
+        img{
+            margin-left: 15px;
+        }
+    }
+    
+    .parag{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .ytyty .diches{
+        grid-template-columns: 1fr;
+        max-width: 520px;
+    }
+    
+    .contact-grid{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .dishes{
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .yll .ylll{
+        grid-template-columns: repeat(2,auto);
+    }
+    
+    .fgg{
+        grid-template-columns: repeat(2,auto);
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 480px){
+    nav ul{
+        flex-direction: column;
+        margin-left: 0;
+        gap: 5px;
+    }
+    
+    nav{
+        height: auto;
+        padding: 10px;
+    }
+    
+    header{
+        .header-title{
+            font-size: 24px;
+            margin-top: 40px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    
+    .yll .ylll{
+        grid-template-columns: 1fr;
+    }
+    
+    .fgg{
+        grid-template-columns: 1fr;
+    }
+    
+    .diches{
+        grid-template-columns: 1fr;
+    }
+}
